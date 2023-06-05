@@ -33,18 +33,18 @@ export function App() {
       const fetchData = async () => {
         try {
           const basketResponse = await axios.get(
-            "http://localhost:3001/basket"
+            "https://shoes.free.beeceptor.com/cart"
           );
 
           const favoritesResponse = await axios.get(
-            "http://localhost:3001/favorites"
+            "https://shoes.free.beeceptor.com/favorites"
           );
 
           const ordersResponse = await axios.get(
-            "http://localhost:3001/orders"
+            "https://shoes.free.beeceptor.com/orders"
           );
 
-          const shoesResponse = await axios.get("https://shoes.free.beeceptor.com/favicon.ico");
+          const shoesResponse = await axios.get("https://shoes.free.beeceptor.com/shoes");
 
           setBasketItems(basketResponse.data);
           setFavoritesItems(favoritesResponse.data);
@@ -66,6 +66,7 @@ export function App() {
         axios.delete(`http://localhost:3001/basket/${obj.id}`);
         setBasketItems((prev) => prev.filter((item) => +item.id !== +obj.id));
       } else {
+        // https://shoes.free.beeceptor.com/cart
         axios.post("http://localhost:3001/basket", obj);
         setBasketItems((prev) => [...prev, obj]);
       }

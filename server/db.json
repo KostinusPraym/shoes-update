@@ -73,14 +73,7 @@
       "img": "./img/main/shoes12.png"
     }
   ],
-  "basket": [
-    {
-      "name": " Nike Cortez",
-      "price": 12900,
-      "img": "./img/main/shoes01.png",
-      "id": 1
-    }
-  ],
+  "basket": [],
   "favorites": [
     {
       "name": " Nike Cortez",
