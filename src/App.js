@@ -44,7 +44,7 @@ export function App() {
             "http://localhost:3001/orders"
           );
 
-          const shoesResponse = await axios.get("http://localhost:3001/shoes");
+          const shoesResponse = await axios.get("https://shoes.free.beeceptor.com/favicon.ico");
 
           setBasketItems(basketResponse.data);
           setFavoritesItems(favoritesResponse.data);
