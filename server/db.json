@@ -1,0 +1,79 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "name": " Nike Cortez",
+      "price": 12900,
+      "img": "./img/main/shoes01.png"
+    },
+    {
+      "id": 2,
+      "name": "Puma Slipstream Lo MMQ",
+      "price": 11200,
+      "img": "./img/main/shoes02.png"
+    },
+    {
+      "id": 3,
+      "name": "Skechers GO RUN ELEVATE",
+      "price": 8300,
+      "img": "./img/main/shoes03.png"
+    },
+    {
+      "id": 4,
+      "name": "Puma RS-X Triple White",
+      "price": 11400,
+      "img": "./img/main/shoes04.png"
+    },
+    {
+      "id": 5,
+      "name": "Nike Phantom",
+      "price": 10900,
+      "img": "./img/main/shoes05.png"
+    },
+    {
+      "id": 6,
+      "name": "Adidas Forum Low Black",
+      "price": 11000,
+      "img": "./img/main/shoes06.png"
+    },
+    {
+      "id": 7,
+      "name": "Skechers EXPECTED 2.0",
+      "price": 12400,
+      "img": "./img/main/shoes07.png"
+    },
+    {
+      "id": 8,
+      "name": "R78 Voyage Wild Garden",
+      "price": 17000,
+      "img": "./img/main/shoes08.png"
+    },
+    {
+      "id": 9,
+      "name": "ST Runner v3 Mid L",
+      "price": 9800,
+      "img": "./img/main/shoes09.png"
+    },
+    {
+      "id": 10,
+      "name": "Adidas Black Treziod 2.0",
+      "price": 10200,
+      "img": "./img/main/shoes10.png"
+    },
+    {
+      "id": 11,
+      "name": "Nike SB",
+      "price": 12900,
+      "img": "./img/main/shoes11.png"
+    },
+    {
+      "id": 12,
+      "name": "Adidas Originals Stan Smith W",
+      "price": 7000,
+      "img": "./img/main/shoes12.png"
+    }
+  ],
+  "basket": [],
+  "favorites": [],
+  "orders": []
+}

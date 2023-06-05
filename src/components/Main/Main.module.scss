@@ -1,0 +1,38 @@
+.contentMain {
+  .titleGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+    .title {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+    }
+
+    input {
+      height: 45px;
+      border: 1px solid #f3f3f3;
+      border-radius: 10px;
+      display: block;
+      padding: 15px 35px;
+      font-size: 16px;
+    }
+
+    label {
+      position: relative;
+
+      img {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+      }
+    }
+  }
+
+  .cardsBlock {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

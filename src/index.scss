@@ -1,0 +1,38 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #e7f6ff;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 85px 0 0 0;
+
+  .container-wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    min-height: 500px;
+    padding: 0 40px 40px;
+  }
+
+  .greenButton {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 325px;
+    height: 55px;
+    background: #9dd558;
+    border-radius: 18px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    transition: background 0.1s ease-in-out;
+
+    &:hover {
+      background: #abdc6f;
+    }
+  }
+}

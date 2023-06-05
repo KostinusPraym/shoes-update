@@ -1,0 +1,61 @@
+.overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+.overlayVisible {
+  visibility: visible;
+  opacity: 1;
+  
+  .basket {
+    transform: translate(0);
+  }
+}
+
+.basket {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  width: 420px;
+  height: 100%;
+  box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  transform: translate(30%);
+  transition: transform 0.3s ease-in-out;
+
+  .titleWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+    .title {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+    }
+  }
+  .cards {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 30px;
+  }
+  .onCloseIcon {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in-out;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

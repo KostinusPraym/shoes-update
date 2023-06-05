@@ -1,0 +1,42 @@
+.submitBlock {
+    p {
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+    }
+    span {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+    }
+    .total {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px dashed #dfdfdf;
+      padding: 13px;
+    }
+    .tax {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 5px;
+      border-bottom: 1px dashed #dfdfdf;
+      padding: 13px;
+    }
+    .btn {
+      margin-top: 25px;
+
+      &:hover {
+          img{
+            transform: translateX(-40px);
+          }
+      }
+      img{
+        position: absolute;
+        top: 21px;
+        right: 20px;
+        transition: transform .2s ease-in-out;
+      }
+    }
+  }

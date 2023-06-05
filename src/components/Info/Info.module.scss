@@ -1,0 +1,30 @@
+.emptyBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  
+
+  h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 9px;
+  }
+
+  p {
+    text-align: center;
+    opacity: 0.4;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+  }
+
+  img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+}
