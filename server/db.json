@@ -73,7 +73,27 @@
       "img": "./img/main/shoes12.png"
     }
   ],
-  "basket": [],
-  "favorites": [],
+  "basket": [
+    {
+      "name": " Nike Cortez",
+      "price": 12900,
+      "img": "./img/main/shoes01.png",
+      "id": 1
+    }
+  ],
+  "favorites": [
+    {
+      "name": " Nike Cortez",
+      "price": 12900,
+      "img": "./img/main/shoes01.png",
+      "id": 1
+    },
+    {
+      "name": "Puma Slipstream Lo MMQ",
+      "price": 11200,
+      "img": "./img/main/shoes02.png",
+      "id": 2
+    }
+  ],
   "orders": []
 }
