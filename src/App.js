@@ -66,8 +66,7 @@ export function App() {
         axios.delete(`http://localhost:3001/basket/${obj.id}`);
         setBasketItems((prev) => prev.filter((item) => +item.id !== +obj.id));
       } else {
-        // https://shoes.free.beeceptor.com/cart
-        axios.post("http://localhost:3001/basket", obj);
+        axios.post("https://shoes.free.beeceptor.com/cart", obj);
         setBasketItems((prev) => [...prev, obj]);
       }
     } catch (error) {
